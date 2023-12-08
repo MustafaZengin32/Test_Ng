@@ -124,11 +124,11 @@ public class Excel01 {
             blueRentalLoginPage.loginButton.click();
             //            GIRIS YAPILDI
 
-            ReusableMethods.waitFor(1);
+            ReusableMethods.waitFor(3);
 
             ReusableMethods.verifyElementDisplayed(blueRentalHomePage.userID);//ASSERTION
 
-            ReusableMethods.waitFor(1);
+            ReusableMethods.waitFor(3);
 
             ReusableMethods.getScreenshot();
 
