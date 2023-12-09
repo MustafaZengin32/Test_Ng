@@ -1,4 +1,4 @@
-package test;
+package tests;
 
 public class Day20TestNg02PomAciklama {
 

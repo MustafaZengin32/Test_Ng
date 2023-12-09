@@ -1,4 +1,4 @@
-package test.dataProvider;
+package tests.dataProvider;
 
 public class DataProviderTest03DeutschInterviewFragen {
 

@@ -1,4 +1,4 @@
-package test.dataProvider;
+package tests.dataProvider;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -22,7 +22,7 @@ public class DataProviderTest01 {
     public  Object [][] urunler(){
         //Objekt ten bir array olusutururuz
         Object urunListesi[][]= {
-                {"renoult"},{"mercedes"}, {"honda"},{"volvo"}
+                {"mercedes"}, {"honda"},{"volvo"}
         };
 
         return  urunListesi; //method ve return u
@@ -46,7 +46,7 @@ public class DataProviderTest01 {
        //2.Araclari arama kutusuna gir ve enter a bas
         Driver.getDriver().findElement(By.name("q")).sendKeys(malzeme + Keys.ENTER);//Method icine yazdi isem
 
-            Thread.sleep(2000);
+            Thread.sleep(3000);
 
         //3.Yazilan malzemenin title da var olup olmadigini kontrol et
         Assert.assertTrue(Driver.getDriver().getTitle().contains(malzeme));

@@ -1,4 +1,4 @@
-package test.ExcelAutomation;
+package tests.ExcelAutomation;
 
 import org.testng.annotations.Test;
 import pages.BlueRentalHomePage;

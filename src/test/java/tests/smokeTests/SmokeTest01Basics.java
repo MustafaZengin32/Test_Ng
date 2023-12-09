@@ -1,4 +1,4 @@
-package test.smokeTests;
+package tests.smokeTests;
 
 public class SmokeTest01Basics {
 

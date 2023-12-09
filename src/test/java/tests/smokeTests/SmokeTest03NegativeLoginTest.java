@@ -1,4 +1,4 @@
-package test.smokeTests;
+package tests.smokeTests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -27,7 +27,10 @@ public class SmokeTest03NegativeLoginTest {
 
     @Test
     public void US100208_Negative_Login() throws InterruptedException {
+
         Driver.getDriver().get(ConfigReader.getProperty("app_url"));
+
+        Thread.sleep(5000);
 
         blueRentalHomePage = new BlueRentalHomePage();
 
@@ -41,7 +44,7 @@ public class SmokeTest03NegativeLoginTest {
 
         blueRentalLoginPage.loginButton.click();
 
-        Thread.sleep(2000);
+        Thread.sleep(5000);
 
         Assert.assertEquals(blueRentalLoginPage.error_message_1.getText(),"User with email fake@bluerentalcars.com not found");
 

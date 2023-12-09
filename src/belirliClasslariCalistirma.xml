@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Istenen classlari calistirma" >
+    <test name="classlar" >
+        <classes>
+            <class name="tests.dataProvider.DataProviderTest01" />
+        </classes>
+    </test>
+</suite>

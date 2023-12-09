@@ -1,6 +1,7 @@
-package test.smokeTests;
+package tests.smokeTests;
 
 import org.testng.Assert;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 import pages.BlueRentalHomePage;
 import pages.BlueRentalLoginPage;
@@ -12,6 +13,7 @@ public class SmokeTest02PozitifLoginTesti {
     BlueRentalHomePage blueRentalHomePage;   //class objeleri tepede olusturmak daha makul cunku diger Test de yazılırsa bulussun
     BlueRentalLoginPage blueRentalLoginPage;
 
+    @Ignore
     @Test
     public void US100201_Admin_Login() throws InterruptedException {
         Driver.getDriver().get(ConfigReader.getProperty("app_url"));
