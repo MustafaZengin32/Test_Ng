@@ -5,10 +5,11 @@ import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 import pages.BlueRentalHomePage;
 import pages.BlueRentalLoginPage;
+import utilities.ATestBaseCross;
 import utilities.ConfigReader;
 import utilities.Driver;
 
-public class SmokeTest02PozitifLoginTesti {
+public class SmokeTest02PozitifLoginTesti extends ATestBaseCross {
 
     BlueRentalHomePage blueRentalHomePage;   //class objeleri tepede olusturmak daha makul cunku diger Test de yazılırsa bulussun
     BlueRentalLoginPage blueRentalLoginPage;

@@ -4,10 +4,11 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.BlueRentalHomePage;
 import pages.BlueRentalLoginPage;
+import utilities.ATestBaseCross;
 import utilities.ConfigReader;
 import utilities.Driver;
 
-public class SmokeTest03NegativeLoginTest {
+public class SmokeTest03NegativeLoginTest extends ATestBaseCross {
 
 
     /*
